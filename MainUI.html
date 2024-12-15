@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" style="margin-top: -25px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Hind:wght@500&family=Open+Sans&family=Oswald:wght@500&family=Poppins&family=Roboto&family=Rubik&family=Tilt+Warp&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4fc124e42f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="msedge.png" type="image/x-icon">
+    <link rel="stylesheet" href="MainUI.css">
+    <title>HomePage</title>
+</head>
+
+<body>
+
+    <div class="input_box">
+        <img src="google-removebg-preview.png" alt="Google Serach" height="25px"
+            style="margin-left: -20px; margin-top: 5px; margin-right: 10px; background-color: transparent; "><br>
+        <form action="https://www.google.com/search" style="border-radius: 14px;" target="_blank" method="get">
+            <input type="text" style=" color: white;   width: 385px; padding: 10px; border-color: transparent;
+            border-radius: 10px;" name="q" placeholder="Search on Google" required>
+            <!-- <input type="submit" style="padding: 8px; border-radius: 5px; color: white; " value="Search"> -->
+        </form>
+    </div>
+    <br>
+
+    <div class="ext-apps" style=" height: 100px; margin-top: 45px; margin-inline-start: -125px;">
+        <a href="https://www.canva.com/" target="_blank">
+            <img src="canva-removebg-preview.png" alt=""
+                style="margin-inline-start: 350px; margin-bottom: -59px; background: transparent; height: 45px;">
+            <div class="canva" onclick="canvaopen(this)"
+                style=" background-color: rgba(255, 255, 255, 0.861); height: 65px; border-radius: 50px; width: 60px; margin-inline-start: 360px;">
+        </a>
+    </div>
+
+    <a href="https://mail.google.com/mail/u/0/" target="_blank"
+        style="text-decoration: none; background-color: transparent;">
+        <div class="email"
+            style="transform: rotateX(360); background-color: rgba(255, 255, 255, 0.861); height: 65px; border-radius: 50px; width: 60px; margin-inline-start: 455px; margin-top: -70px;">
+            <img src="gmail-removebg-preview.png" alt="" height="45px"
+                style="background-color: transparent; margin: 8px;">
+    </a></div>
+
+    <a href="https://ticker.finology.in/" target="_blank"
+        style="text-decoration: none; background-color: transparent;">
+        <div class="email"
+            style="background-color: rgba(255, 255, 255, 0.861); height: 65px; border-radius: 50px; width: 60px; margin-inline-start: 550px; margin-top: -70px;">
+            <img src="ticker.png" alt="" height="36px"
+                style="background-color: transparent; margin: 12px; margin-top: 15px;">
+    </a></div>
+
+    <a href="https://groww.in/stocks/user/explore" target="_blank"
+        style="text-decoration: none; background-color: transparent;">
+        <div class="email"
+            style="background-color: rgba(255, 255, 255, 0.861); height: 65px; border-radius: 50px; width: 60px; margin-inline-start: 645px; margin-top: -70px;">
+            <img src="groww-removebg-preview.png" alt="" height="50px"
+                style="background-color: transparent; margin: 6px; margin-top: 9px;">
+    </a></div>
+
+    <a href="https://www.notion.so/" target="_blank"
+        style="text-decoration: none; background-color: transparent;">
+        <div class="email"
+            style="background-color: rgba(255, 255, 255, 0.861); height: 65px; border-radius: 50px; width: 60px; margin-inline-start: 737px; margin-top: -70px;">
+            <img src="notion.png" alt="" height="40px"
+                style="background-color: transparent; margin: 12px; margin-top: 13px;">
+    </a></div>
+
+    <a href="https://drive.google.com/drive/my-drive" target="_blank"
+        style="text-decoration: none; background-color: transparent;">
+        <div class="email"
+            style="background-color: rgba(255, 255, 255, 0.861); height: 65px; border-radius: 50px; width: 60px; margin-inline-start: 832px; margin-top: -70px;">
+            <img src="drive-removebg-preview.png" alt="" height="36px"
+                style="background-color: transparent; margin: 0px; margin-top: 12px;">
+    </a></div>
+
+    <a href="https://www.flipkart.com/" target="_blank" style="text-decoration: none; background-color: transparent;">
+        <div class="email"
+            style="background-color: rgba(255, 255, 255, 0.861); height: 65px; border-radius: 50px; width: 60px; margin-inline-start: 928px; margin-top: -68px;">
+            <img src="flipkart-removebg-preview.png" alt=""
+                style="margin-inline-start: 7px; margin-bottom: -40px; background: transparent; height: 50px;">
+    </a></div>
+
+    <a href="https://www.amazon.com/" target="_blank" style="text-decoration: none; background-color: transparent;">
+        <div class="email"
+            style="background-color: rgba(255, 255, 255, 0.861); height: 65px; border-radius: 50px; width: 60px; margin-inline-start: 1020px; margin-top: -68px;">
+            <img src="amaze-removebg-preview.png" alt=""
+                style="margin-inline-start: 9px; margin-bottom: -42px; background: transparent; height: 43px;">
+    </a></div>
+
+    <a href="https://www.irctc.co.in/nget/train-search" target="_blank" style="text-decoration: none; background-color: transparent;">
+        <div class="email"
+            style="background-color: rgba(255, 255, 255, 0.861); height: 65px; border-radius: 50px; width: 60px; margin-inline-start: 1110px; margin-top: -68px;">
+            <img src="irctc-removebg-preview.png" alt=""
+                style="margin-inline-start: 12px; margin-bottom: -42px; background: transparent; height: 43px;">
+    </a></div>
+    </div>
+    <br>
+
+    <div class="anim" style="margin-left: 620px; margin-top: 50px;">
+        <style>
+            .animated-text {
+                font-family: 'Hind', sans-serif;
+                font-size: 30px;
+                color: #ffffff;
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap" rel="stylesheet">
+        </head>
+
+        <body>
+            <h1 class="animated-text" style="margin-left: -85px;">HTML, CSS &amp; JS</h1>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>
+                WebFont.load({
+                    google: { families: ['Hind:400,700'] },
+                    active: function () {
+                        var languages = ["HTML, CSS & JS", "   JAVA & D S A", " PYTHON LIBS", "BLOCKCHAIN"];
+                        var textElement = document.querySelector('.animated-text');
+                        var currentIndex = 0;
+
+                        function displayNext() {
+                            textElement.textContent = languages[currentIndex];
+                            currentIndex = (currentIndex + 1) % languages.length;
+                            setTimeout(displayNext, 2000);
+                        }
+
+                        displayNext();
+                    }
+                });
+
+                var canva = document.getElementsByClassName('canva')
+                var code = "00010"
+                function canvaopen(elem) {
+                    var userinput = prompt("Enter the 6 digit Code to proceed")
+                    if(userinput === code){
+                        console.log("Page Enabled")
+                    }
+                    else[
+                        document.write("Please Try again")
+                    ]
+                }
+                // canva.addEventListener('click', canvaopen);
+
+
+
+
+            </script>
+    </div>
+    <div class="app_links" style="display: flex; margin-top: -120px;">
+        <div class="youtube"
+            style="display: flex; border-radius: 10px; background-color: rgb(255 255 255 / 16%); width: 200px; margin-top: 174px; margin-left: 325px; height: 65px;">
+            <a href="https://www.youtube.com/"
+                style="margin: 0px; text-decoration: none; background-color: transparent;" target="_blank">
+                <img src="youtube-removebg-preview.png" alt=""
+                    style="margin: -15px; margin-top: 2px; margin-left: -20px; height: 59px; background-color: transparent; margin-right: -90px;">
+                <h2
+                    style="background-color: transparent; margin-inline-start: 80px; margin-top: -35px; font-family: 'Hind'; color: white;">
+                    Youtube</h2>
+            </a>
+        </div>
+        <div class="youtube"
+            style="display: flex ; border-radius: 10px; background-color: rgb(255 255 255 / 16%); width: 200px; margin-top: 174px; margin-left: 15px; height: 65px;">
+            <a href="https://chat.openai.com/" style="background-color: transparent; text-decoration: none;"
+                target="_blank">
+                <img src="gpt2.png" alt=""
+                    style="margin: -30px; margin-top: 3px; height: 75px; background-color: transparent;">
+                <h2
+                    style="background-color: transparent; margin-inline-start: 65px; margin-top: -35px; font-family: 'Hind'; color: white;">
+                    ChatGPT</h2>
+            </a>
+        </div>
+        <br>
+        <div class="youtube"
+            style="display: flex; border-radius: 10px; background-color: rgb(255 255 255 / 16%); width: 200px; margin-top: 255px; margin-left: -425px; height: 65px;">
+            <a href="https://replit.com/" style="background-color: transparent; text-decoration: none;"
+                target="_blank">
+                <img src="repllit-removebg-preview.png" alt=""
+                    style="margin: -15px; margin-top: 2px; margin-left: 3px; height: 59px; background-color: transparent; margin-right: -90px;">
+                <h2
+                    style="background-color: transparent; margin-inline-start: 70px; margin-top: -35px; font-family: 'Hind'; color: white;">
+                    Replit</h2>
+            </a>
+        </div>
+        <div class="youtube"
+            style="display: flex;border-radius: 10px; background-color: rgb(255 255 255 / 16%); width: 200px; margin-top: 255px; margin-left: 17px; height: 65px;">
+            <a href="https://github.com/"  target="_blank" style="text-decoration: none; background-color: transparent;">
+            <img src="git.png" alt=""
+                style="margin: -15px; margin-top: 10px; margin-left: 10px; height: 45px; background-color: transparent; margin-right: -90px;">
+            <h2
+                style="background-color: transparent; margin-inline-start: 70px; margin-top: -28px; font-family: 'Hind'; color: white;">
+                GitHub</h2>
+            </a>
+        </div>
+        <div class="youtube"
+            style="display: flex;border-radius: 10px; background-color: rgb(255 255 255 / 16%); width: 200px; margin-top: 255px;  margin-left: 17px; height: 65px;">
+            <a href="https://open.spotify.com/" style="text-decoration: none; background-color: transparent;"><img
+                    src="spotify-removebg-preview.png" alt=""
+                    style="margin: -15px; margin-top: 10px; margin-left: 10px; height: 45px; background-color: transparent; margin-right: -90px;">
+                <h2
+                    style="background-color: transparent; margin-inline-start: 65px; margin-top: -30px; font-family: 'Hind'; color: white;">
+                    Spotify</h2>
+            </a>
+        </div>
+        <div class="youtube"
+            style="display: flex;border-radius: 10px; background-color: rgb(255 255 255 / 16%); width: 200px; margin-top: 175px; margin-left: -205px; height: 65px;">
+            <a href="https://bard.google.com/" target="_blank" style="text-decoration: none; background-color: transparent;"><img
+                    src="bard-removebg-preview.png" alt=""
+                    style="margin: -15px; margin-top: 15px; margin-left: 1px; height: 43px; background-color: transparent; margin-right: -90px;">
+                <h2
+                    style="background-color: transparent; margin-inline-start: 68px; margin-top: -30px; font-family: 'Hind'; color: white;">
+                    G Bard</h2>
+            </a>
+        </div>
+
+
+    </div>
+    <br>
+    <br>
+
+</body>
+
+</html>
